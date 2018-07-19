@@ -1,0 +1,22 @@
+{
+  "name": "wolfera",
+  "version": "1.0.0",
+  "description": "Wolf Era Fitness",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WolfEra/WolfEra.github.io.git"
+  },
+  "author": "Nicole Creshon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WolfEra/WolfEra.github.io/issues"
+  },
+  "homepage": "https://github.com/WolfEra/WolfEra.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
