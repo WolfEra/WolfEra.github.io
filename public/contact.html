@@ -27,6 +27,17 @@
       background:  #9BA1B2;
       font-family: 'Permanent Marker', cursive;
   }
+  .header {
+    color:  #1c4bcc;
+    font-size: 27px;
+    padding: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.bigicon {
+    font-size: 35px;
+    color:  #1c4bcc;
+}
   
   </style>
 
@@ -46,6 +57,8 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    
                                 </button>
                                 <a href="/" class="navbar-brand">Wolf Era</a>
                             </div>
@@ -53,8 +66,10 @@
                             <div id="navbarCollapse" class="collapse navbar-collapse">
                                 <ul class="nav navbar-nav">
                                     <li ><a href="/">About</a></li>
-                                    <li class="active"><a href="/public/before-and-after.html">Client Photos</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li ><a href="before-and-after.html">Photos</a></li>
+                                    <li ><a href="schedule.html">Schedule</a></li>
+                                    
+                                    <li class="active"><a href="contact.html">Contact</a></li>
                                 </ul>
                                 <!-- <ul class="nav navbar-nav navbar-right">
                                     <li><a href="#">Login</a></li>
@@ -63,42 +78,58 @@
                         </nav>
 
                         <div class="container">
-                                <h2>Before & After</h2>  
-                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                                  <!-- Indicators -->
-                                  <ol class="carousel-indicators">
-                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                                  </ol>
-                              
-                                  <!-- Wrapper for slides -->
-                                  <div class="carousel-inner">
-                                    <div class="item active">
-                                      <img src="la.jpg" alt="Los Angeles" style="width:100%;">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="well well-sm">
+                                            <form action="https://formspree.io/ncreshon@gmail.com" class="form-horizontal" method="post">
+                                                <fieldset>
+                                                    <legend class="text-center header">Contact us</legend>
+                            
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="form-group">
+                                                        <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                                        <div class="col-md-8">
+                                                            <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="form-group">
+                                                        <div class="col-md-12 text-center">
+                                                            <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                                        </div>
+                                                    </div>
+                                                </fieldset>
+                                            </form>
+                                        </div>
                                     </div>
-                              
-                                    <div class="item">
-                                      <img src="chicago.jpg" alt="Chicago" style="width:100%;">
-                                    </div>
-                                  
-                                    <div class="item">
-                                      <img src="ny.jpg" alt="New york" style="width:100%;">
-                                    </div>
-                                  </div>
-                              
-                                  <!-- Left and right controls -->
-                                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left"></span>
-                                    <span class="sr-only">Previous</span>
-                                  </a>
-                                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right"></span>
-                                    <span class="sr-only">Next</span>
-                                  </a>
                                 </div>
-                              </div>
-                        
+                            </div>
                         
                 </div>
             </div> 
